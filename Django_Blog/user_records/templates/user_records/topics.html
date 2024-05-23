@@ -3,6 +3,7 @@
 {% block content %}
 
 <p>Topics</p>
+<a href="{% url 'user_records:new_topic' %}">Add a new topic</a>
 <ul>
     {% for topic in topics %}
 	    <li>
